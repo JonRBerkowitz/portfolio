@@ -73,3 +73,42 @@ body {
   border: 1px solid #6999e5;
   text-decoration: none;
 }
+
+.project-main {
+  background-color: #10244b;
+  color: #fff;
+  width: 66%;
+  height: 100vh;
+}
+
+.project-main-image{
+  height: 70%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-main-image img {
+  width: 100%;
+}
+
+.project-title h1{
+  text-transform: uppercase;
+  font-weight: 300;
+  border: 1px solid #fff;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  margin-top: -30px;
+  background-color: #10244b;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-main-text p {
+  text-align: left;
+  margin: 20px 8%;
+  line-height: 1.4em;
+  font-size: .9em;
+  font-weight: 400;
+}
