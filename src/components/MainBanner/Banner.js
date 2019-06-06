@@ -7,7 +7,7 @@ const Banner = () =>
 	<h1>jon berkowitz</h1>
 	<h2>FULL-STACK DEVELOPER / GRAPHIC DESIGNER</h2>
 	<div id="work-link">
-	<a href="#">MY WORK</a><a id="link-arrow" href="#">v</a>
+	<a href="#first-project">MY WORK</a><a id="link-arrow" href="#first-project">v</a>
 	</div>
 </div>
 

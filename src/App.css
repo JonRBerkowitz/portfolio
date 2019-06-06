@@ -1,5 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .App {
@@ -8,16 +15,15 @@ body {
 }
 
 .panel {
-  height: 100vh;
   margin: 0;
   padding: 0;
   width: 100%;
-  display: inline-block;
+  height: 100%;
 }
 
 #banner {
   height: 100vh;
-] color: #333;
+  color: #333;
 }
 
 #banner h1 {
@@ -79,17 +85,17 @@ body {
   color: #fff;
   width: 66%;
   height: 100vh;
+  margin: 0;
+  display: inline-block;
 }
 
 .project-main-image{
-  height: 70%;
+  height: 65%;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.project-main-image img {
-  width: 100%;
+  background-position: left top;
+  background-attachment: fixed;
 }
 
 .project-title h1{
@@ -105,10 +111,79 @@ body {
   margin-right: auto;
 }
 
+.project-main-text {
+ height: 35%;
+}
+
 .project-main-text p {
   text-align: left;
-  margin: 20px 8%;
+  margin: 0 8%;
   line-height: 1.4em;
   font-size: .9em;
   font-weight: 400;
+}
+
+.project-main-text .tech-used {
+  margin: 3px 8% 12px 8%;
+}
+
+.project-main-text h3 {
+  font-weight: 400;
+  text-align: left;
+  padding-top: 15px;
+  margin: 0 8%;
+}
+
+.project-sidebar {
+  width: 34%;
+  height: 100vh;
+  background-color: #071124;
+  display: inline-block;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  float: right;
+  color: #fff;
+}
+
+.project-sidebar h1{
+  font-size: 1.3em;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.project-sidebar p {
+  margin: 0 12% 45px 12%;
+}
+.call-to-action {
+  background-color: #4286f4;
+  padding: 14px 35px;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.placeholder-widget {
+  background-color: #ccc;
+  border-radius: 3px;
+  box-shadow: -3px 10px 10px rgba(0,0,0,.7);
+  height: 420px;
+  width: 74%;
+  margin: 30px auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .project-main {
+    display: block;
+    width: 100%;
+  }
+
+  .project-sidebar {
+    display: block;
+    float: none;
+    width: 100%;
+  }
 }
