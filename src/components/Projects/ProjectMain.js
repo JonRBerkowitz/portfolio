@@ -14,7 +14,7 @@ const ProjectMain = (props) =>
 		tasks. This app was created to allow basic project management to take place among team members. After signing in, users
 		can create new projects.
 		</p>
-		<h3>Technologies Used:</h3>
+		<h2>Technologies Used:</h2>
 		<p className="tech-used">Javascript, HTML, CSS, Ruby on Rails</p>
 	</div>
 </div>
